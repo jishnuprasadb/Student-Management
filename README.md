@@ -11,4 +11,5 @@ Migrate the site:
 Bench --site [your-site-name] migrate
 
 create and submit the Student Enrollment Document
+
 Check the custom report Student Enrollment Record
