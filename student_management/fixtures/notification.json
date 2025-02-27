@@ -1,0 +1,43 @@
+[
+ {
+  "attach_print": 0,
+  "channel": "Email",
+  "condition": "doc.workflow_state == \"Approved\"",
+  "date_changed": null,
+  "days_in_advance": 0,
+  "docstatus": 0,
+  "doctype": "Notification",
+  "document_type": "Student Enrollment",
+  "enabled": 1,
+  "event": "New",
+  "is_standard": 0,
+  "message": "<h3>{{_(\"Student Enrollment\")}}</h3>\n\n<p> {{ doc.student_name }} {{ _(\"Has been successfully enrolled\") }}</p>\n",
+  "message_type": "Markdown",
+  "method": null,
+  "modified": "2025-02-26 23:23:32.392106",
+  "module": null,
+  "name": "Student Enrollment",
+  "print_format": null,
+  "property_value": null,
+  "recipients": [
+   {
+    "bcc": null,
+    "cc": null,
+    "condition": null,
+    "parent": "Student Enrollment",
+    "parentfield": "recipients",
+    "parenttype": "Notification",
+    "receiver_by_document_field": "owner",
+    "receiver_by_role": null
+   }
+  ],
+  "send_system_notification": 0,
+  "send_to_all_assignees": 0,
+  "sender": "",
+  "sender_email": "",
+  "set_property_after_alert": null,
+  "slack_webhook_url": null,
+  "subject": "Student Enrollment",
+  "value_changed": null
+ }
+]

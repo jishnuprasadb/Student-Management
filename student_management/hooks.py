@@ -21,6 +21,33 @@ app_license = "mit"
 # 	}
 # ]
 
+fixtures = [
+		{
+            "dt": "Workflow State",
+            "filters": [
+                ["name", "in", ["Draft","Submitted",]]
+            ]
+        },
+		{
+            "dt": "Workflow",
+            "filters": [
+                ["name", "in", ["Student Enrollment"]]
+            ]
+        },  
+        {
+            "dt": "Workflow Action Master",
+            "filters": [
+                ["name", "in", ["Submit"]]
+            ]
+        },
+        {
+            "dt": "Notification",
+            "filters": [
+                ["name", "in", ["Student Enrollment"]]
+            ]
+        },
+]
+
 # Includes in <head>
 # ------------------
 
